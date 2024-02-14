@@ -22,8 +22,6 @@ if __name__ == "__main__":
         for i, password in enumerate(passwords, start=1):
             print(f"Password {i}: {password}")
 
-    except ValueError as e:
-        print("Error: Please enter valid numeric values for password length and quantity.")
 '''
 in this code, we define a function generate_password() that generates a random password of a specified length.
 genearted passwords are stored in a list passwords and are displayed using a for loop.
